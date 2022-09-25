@@ -1,3 +1,160 @@
 {{ define "main" }}
 
+<div class="container mx-auto px-4 lg:px-6">
+  <div class="grid gap-6 lg:grid-cols-12">
+    <div class="lg:col-span-3">Side Panel</div>
+    <div class="lg:col-span-6">
+      <div class="flex gap-4 rounded-xl border p-6">
+        <img class="h-12 w-12 rounded-full" src="https://www.rallypoint.com/assets/default/avatar_feed.png" />
+        <div class="flex w-full flex-col gap-4">
+          <input class="w-full rounded bg-slate-50 py-3 px-4" type="text" placeholder="Start a post" />
+          <div class="grid grid-flow-col gap-3">
+            <button class="inline-flex items-center justify-center gap-2 rounded py-2 px-4 border">
+              <i class="fa-solid fa-link"></i>
+              <span>Share link</span>
+            </button>
+            <button class="inline-flex items-center justify-center gap-2 rounded py-2 px-4 border">
+              <i class="fa-solid fa-question"></i>
+              <span>Ask question</span>
+            </button>
+            <button class="inline-flex items-center justify-center gap-2 rounded py-2 px-4 border">
+              <i class="fa-solid fa-pen-to-square"></i>
+              <span>Post update</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col gap-4 rounded border p-6">
+        <div class="flex items-center justify-between">
+          Recommended for you<a class="flex" href=""><i class="fa-solid fa-xmark"></i></a>
+        </div>
+        <hr />
+        <a class="flex items-center gap-3" href="/">
+          <img class="h-20 w-20 rounded-full" src="https://d1ndsj6b8hkqu9.cloudfront.net/profiles/photos/168853/feed/64184c8f.jpg" />
+            <div class="w-full">
+              <p class="font-semibold">PO1 William "Chip" Nagel</p>
+              <p>
+                <svg class="h-4 w-4 inline-block" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108.511">
+                  <path class="user-badge-svg-bg" fill="#A7A9AC" d="M89.398 108.511H18.602C8.328 108.511 0 100.183 0 89.909V19.113C0 8.839 8.328.511 18.602.511h70.796C99.672.511 108 8.839 108 19.113v70.796c0 10.274-8.328 18.602-18.602 18.602z"></path>
+                  <path d="M27.218 26.444h10.557l16.38 41.765 16.302-41.765h10.324l-22.59 54.728h-8.384L27.218 26.444z" fill="#fff"></path>
+                </svg>
+                <span>USN</span>
+              </p>
+              
+            </div>
+            <div>
+              <span>Shared a link</span>
+              <i class="fa-regular fa-clock"></i>
+              <span>1.5 h</span>
+            </div>
+          </a>
+
+        <div class="line-clamp-5">
+          <p class="mb-2 leading-normal">President Putin has announced a "partial mobilisation" of forces to be sent to Ukraine and warned that he will use "all means we have" to defend Russian territory, raising concerns around the world.</p>
+          <p class="mb-2 leading-normal">But as with previous warnings, analysts suggest his actions should probably be interpreted as a warning to other countries not to escalate their involvement in Ukraine, rather than signalling any desire to use nuclear weapons.</p>
+          <p class="mb-2 leading-normal">Nuclear weapons have existed for almost 80 years and many countries see them as a deterrent that continues to guarantee their national security.</p>
+          <!-- <a href="/shared-links/putin-threats-how-many-nuclear-weapons-does-russia-have" id="ember3303" class="view-discussion ember-view"> [View Discussion] </a> -->
+        </div>
+
+        <div class="-mx-6">
+          <a href="/shared-links/putin-threats-how-many-nuclear-weapons-does-russia-have" id="ember3313" class="ember-view">
+            <img class="w-full" src="https://d1ndsj6b8hkqu9.cloudfront.net/link_data_pictures/images/000/742/560/shared_link/open-uri20220921-16356-1skz8tp" />
+            <div class="bg-neutral-100 px-6 py-4">
+              <h3 class="text-lg font-semibold leading-normal">Putin threats: How many nuclear weapons does Russia have?</h3>
+              <p class="text-sm leading-normal">Posted from bbc.com</p>
+            </div>
+          </a>
+        </div>
+
+        <ul>
+          <li class="inline-flex">
+            <a href="/" class="flex gap-1 bg-slate-200 px-4 py-2">
+              Weapon
+              <i class="material-symbols-outlined">add_circle_outline</i>
+              <!-- <i class="material-symbols-outlined">check_circle_outline</i> -->
+            </a>
+          </li>
+          <li class="inline-flex">
+            <a href="/" class="flex gap-1 bg-slate-200 px-4 py-2">
+              Ukraine
+              <!-- <i class="material-symbols-outlined">add_circle_outline</i> -->
+              <i class="material-symbols-outlined">check_circle_outline</i>
+            </a>
+          </li>
+          <li class="inline-flex">
+            <a href="/" class="flex gap-1 bg-slate-200 px-4 py-2">
+              Russia
+              <!-- <i class="material-symbols-outlined">add_circle_outline</i> -->
+              <i class="material-symbols-outlined">check_circle_outline</i>
+            </a>
+          </li>
+          <li class="inline-flex">
+            <a href="/" class="flex gap-1 bg-slate-200 px-4 py-2">
+              Nuclear
+              <!-- <i class="material-symbols-outlined">add_circle_outline</i> -->
+              <i class="material-symbols-outlined">check_circle_outline</i>
+            </a>
+          </li>
+          <li class="inline-flex">
+            <a href="/" class="flex gap-1 bg-slate-200 px-4 py-2">
+              Russo-Ukrainian War
+              <!-- <i class="material-symbols-outlined">add_circle_outline</i> -->
+              <i class="material-symbols-outlined">check_circle_outline</i>
+            </a>
+          </li>
+        </ul>
+
+        <div>
+          <a href="">3 likes</a>
+          <a href="">5 comments</a>
+          <a href="">1 share</a>
+        </div>
+
+        <hr />
+
+        <div class="grid grid-flow-col gap-3">
+          <button class="inline-flex items-center justify-center gap-2 rounded py-2 px-4">
+            <img srcset="https://d23ybtgf63dak7.cloudfront.net/assets/images/vote-button/vote-up-bg@1x-8fa280ba1edbcbe1fcee0eb692ef470c.png 1x, https://d23ybtgf63dak7.cloudfront.net/assets/images/vote-button/vote-up-bg@2x-219417d47f640944ab9d80b288d045b1.png 2x, https://d23ybtgf63dak7.cloudfront.net/assets/images/vote-button/vote-up-bg@3x-da133dde8dc3f18805dd0e1ef1c1b21b.png 3x" src="https://d23ybtgf63dak7.cloudfront.net/assets/images/vote-button/vote-up-bg@1x-8fa280ba1edbcbe1fcee0eb692ef470c.png" />
+            Like
+          </button>
+          <button class="inline-flex items-center justify-center gap-2 rounded py-2 px-4">
+            <img srcset="https://d23ybtgf63dak7.cloudfront.net/assets/images/comment-button/comment-bg@1x-f29a3e584f339b5b729c679e0393421c.png 1x, https://d23ybtgf63dak7.cloudfront.net/assets/images/comment-button/comment-bg@2x-008270db9e6ecfcae39b9e8aba04bdfc.png 2x, https://d23ybtgf63dak7.cloudfront.net/assets/images/comment-button/comment-bg@3x-c68981dcf17a19df9342d089533007ad.png 3x" src="https://d23ybtgf63dak7.cloudfront.net/assets/images/comment-button/comment-bg@1x-f29a3e584f339b5b729c679e0393421c.png" />
+            Comment
+          </button>
+          <button class="inline-flex items-center justify-center gap-2 rounded py-2 px-4">
+            <img srcset="https://d23ybtgf63dak7.cloudfront.net/assets/images/share-button/share@1x-fdf6f7cf8fcb4a63ae6c761642573302.png 1x, https://d23ybtgf63dak7.cloudfront.net/assets/images/share-button/share@2x-c9c4c3041ba0888843e85b8d5f6bafa2.png 2x, https://d23ybtgf63dak7.cloudfront.net/assets/images/share-button/share@3x-5b9130673abaf558754e64affd95e5ef.png 3x" src="https://d23ybtgf63dak7.cloudfront.net/assets/images/share-button/share@1x-fdf6f7cf8fcb4a63ae6c761642573302.png" />
+            Share
+          </button>
+        </div>
+
+        <div class="container" href="/">
+          <div class="flex gap-4">
+            <img class="h-12 w-12 rounded-full" src="https://d1ndsj6b8hkqu9.cloudfront.net/profiles/photos/1346405/feed/7f124c3a.jpg" />
+            <div class="w-full">
+              <div class="bg-slate-50 p-4">
+                <p>Lt Col Charlie Brown</p>
+                <p>I wouldn't bet that he thinks nucs are off the table...</p>
+              </div>
+              <a href="">Vote Up</a>
+              <a href="">Comment</a>
+            </div>
+          </div>
+          <div class="flex gap-4">
+            <img class="h-12 w-12 rounded-full" src="https://d1ndsj6b8hkqu9.cloudfront.net/profiles/photos/106303/feed/3da3da30.png" />
+            <div class="w-full">
+              <div class="bg-slate-50 p-4">
+                <p>SFC Joe S. Davis Jr., MSM, DSL</p>
+                <p>PO1 William "Chip" Nagel interesting read and a dangerous one IMHO Brother William.</p>
+              </div>
+              <a href="">Vote Up</a>
+              <a href="">Comment</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="lg:col-span-3">Side Panel</div>
+  </div>
+</div>
 {{ end }}
